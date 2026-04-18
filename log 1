@@ -1,0 +1,45 @@
+today i learned about azure storage services
+
+## Objective
+Understand different types of Azure storage and their use cases
+
+## Topics Covered
+- Blob Storage (object storage for unstructured data)
+- Disk Storage (used by virtual machines)
+- File Storage (managed file shares using SMB)
+- Queue Storage (messaging between application components)
+- Table Storage (NoSQL key-value storage)
+- Data Lake Storage (optimized for big data analytics)
+- Archive Storage (low-cost storage for rarely accessed data)
+- Data Box (used for transferring large amounts of data physically)
+
+## Key Differences I Learned
+
+- Blob vs File:
+  - Blob = object storage (images, videos)
+  - File = shared file system (like network drive)
+
+- Queue vs Table:
+  - Queue = messaging system
+  - Table = NoSQL structured storage
+
+- Disk vs Blob:
+  - Disk = attached to VM
+  - Blob = independent storage
+
+## Real-World Use Cases
+
+- Blob → storing app images/videos
+- File → shared company folder
+- Queue → decoupling services (background jobs) ( application messaging system)
+- Table → storing unstructered nosql data
+- Archive → backups
+- Data Lake → analytics workloads
+
+## Key Takeaways
+- Azure storage is not one service → multiple types for different needs
+- Choosing wrong storage can impact cost and performance
+
+## What I Did 
+- Explored storage account options in Azure portal
+- Observed different storage types and tiers
